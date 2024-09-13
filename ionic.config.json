@@ -1,0 +1,7 @@
+{
+  "name": "WishListify",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
