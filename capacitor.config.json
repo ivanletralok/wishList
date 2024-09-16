@@ -1,0 +1,15 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "WishListify",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 3000,
+			"launchAutoHide": true,
+			"backgroundColor": "#3498db",
+			"androidScaleType": "CENTER_CROP",
+			"spinnerStyle": "dark"
+		}
+	}
+}

@@ -1,31 +1,64 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/versions
 
-# testing
-/coverage
-
-# production
+# Production build
 /dist
+/build
+/.vite
 
-# misc
-.DS_Store
+# Environment files
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-/.nx
-/.nx/cache
-/.vscode/*
-!/.vscode/extensions.json
-.idea
 
+# Testing
+/coverage
+.nyc_output
+
+/.vite
+/module
+
+# IDEs and editors
+.vscode/*
+!/.vscode/extensions.json
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# PnP
+/.pnp
+.pnp.js
+
+# Build artifacts
+*.tsbuildinfo
+
+# Platform-specific folders
+/android
+/ios
+
+# Gradle cache
+/.gradle
+
+# Miscellaneous
+*.pem
+*.log
+*.tmp
+*.swp
+*.swo
